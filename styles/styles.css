@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #ff0000;
+}
+
+/* shared styles */
+.center-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Banner Styling */
+header .banner {
+  max-width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  color: white;
+  background: linear-gradient(
+      180deg,
+      rgb(0, 0, 0) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("../images/bannerImage.png");
+  font-family: "Merriweather";
+  border-radius: 10px;
+}
+
+header .banner-title {
+  font-size: 72px;
+  width: 630px;
+  text-align: center;
+}
+
+/* Deals CSS */
+.deals {
+  max-width: 800px;
+  margin: 120px auto;
+  font-family: "Inter";
+}
+
+.deals-title {
+  color: var(--primary-color);
+  font-size: 88px;
+  margin: 48px 0;
+}
+
+.deals-subtitle {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.deals-semititle {
+  font-size: 48px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+/* Party Section */
+.party {
+  max-width: 1320px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 120px auto;
+  background: linear-gradient(
+      100deg,
+      rgb(0, 0, 0) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("../images/Vector.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.party-content {
+  width: 645px;
+}
+
+.party-title {
+  font-size: 64px;
+  letter-spacing: 11px;
+  font-family: "Merriweather";
+  margin-bottom: 24px;
+}
+
+.party-subtitle {
+  font-size: 18px;
+  font-family: "Inter";
+  margin-bottom: 48px;
+}
+
+.join-btn{
+    font-family: "Merriweather";
+    margin-left: 32px;
+}
